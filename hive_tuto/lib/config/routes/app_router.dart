@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive_tuto/config/routes/app_routes.dart';
 import 'package:hive_tuto/data/models/note_model.dart';
-import 'package:hive_tuto/view/edit_note.dart';
-import 'package:hive_tuto/view/home.dart';
-import 'package:hive_tuto/view/welcome.dart';
+import 'package:hive_tuto/presentation/edit_note.dart';
+import 'package:hive_tuto/presentation/home.dart';
+import 'package:hive_tuto/presentation/welcome.dart';
 
 class AppRouter {
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {

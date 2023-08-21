@@ -5,10 +5,10 @@ import 'package:hive_flutter/adapters.dart';
 import 'package:hive_tuto/config/routes/app_routes.dart';
 import 'package:hive_tuto/core/utils/utils.dart';
 
-import 'package:hive_tuto/view/widgets/add_note_button.dart';
+import 'package:hive_tuto/presentation/widgets/add_note_button.dart';
 
-import 'package:hive_tuto/view/widgets/custom_app_bar.dart';
-import 'package:hive_tuto/view/widgets/note_tile.dart';
+import 'package:hive_tuto/presentation/widgets/custom_app_bar.dart';
+import 'package:hive_tuto/presentation/widgets/note_tile.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../cubit/note_cubit/note_cubit.dart';
 import '../data/models/note_model.dart';

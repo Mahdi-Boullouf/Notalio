@@ -6,9 +6,9 @@ import 'package:hive_tuto/core/res/constants.dart';
 import 'package:hive_tuto/cubit/edit_button_status_cubit/edit_button_status_cubit.dart';
 import 'package:hive_tuto/cubit/note_cubit/note_cubit.dart';
 
-import 'package:hive_tuto/view/widgets/custom_app_bar.dart';
-import 'package:hive_tuto/view/widgets/custom_rich_text_field.dart';
-import 'package:hive_tuto/view/widgets/custom_text_field.dart';
+import 'package:hive_tuto/presentation/widgets/custom_app_bar.dart';
+import 'package:hive_tuto/presentation/widgets/custom_rich_text_field.dart';
+import 'package:hive_tuto/presentation/widgets/custom_text_field.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../data/models/note_model.dart';
 

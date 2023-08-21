@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_tuto/core/res/context_extension.dart';
 
-import 'package:hive_tuto/view/widgets/disabled_button.dart';
-import 'package:hive_tuto/view/widgets/loading_button.dart';
+import 'package:hive_tuto/presentation/widgets/disabled_button.dart';
+import 'package:hive_tuto/presentation/widgets/loading_button.dart';
 
 import '../../cubit/add_button_status_cubit/button_status_cubit.dart';
 import '../../cubit/note_cubit/note_cubit.dart';
